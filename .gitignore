@@ -1,0 +1,43 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.env
+.node_modules
+node_modules/
+.terraform
+.terraform.lock.hcl
+.terraform.tfstate
+.terraform.tfstate.backup
+.terraformrc
+.terragrunt-cache/
+.terraform-version
+.terragrunt-version
+.terraform.d/plugins/
+# Dependency directories and files
+.node_modules
+*.log
+.env       # Ignore environment files
+*.bak      # Ignore backup files
+.vscode/   # Ignore VS Code's workspace-specific settings folder
+
